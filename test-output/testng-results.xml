@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1610" started-at="2019-09-01T17:30:43 IST" finished-at="2019-09-01T17:30:44 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1610" started-at="2019-09-01T17:30:43 IST" finished-at="2019-09-01T17:30:44 IST">
+      <class name="com.qa.Test.Get_Method">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Test.Get_Method@6f1fba17]" name="setup" is-config="true" duration-ms="12" started-at="2019-09-01T17:30:43 IST" finished-at="2019-09-01T17:30:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAPI()[pri:0, instance:com.qa.Test.Get_Method@6f1fba17]" name="getAPI" duration-ms="1544" started-at="2019-09-01T17:30:43 IST" finished-at="2019-09-01T17:30:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPI -->
+      </class> <!-- com.qa.Test.Get_Method -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
