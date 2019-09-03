@@ -37,7 +37,6 @@ public class RestClient {
 		
 	}
 	System.out.println("Headers Key and Value:"+allHeaders);
-	System.out.println("API is working");
 	
 	}
 
