@@ -13,7 +13,7 @@ import org.json.JSONObject;
 
 public class RestClient {
 	
-	public void get(String url) throws Throwable, IOException
+	public CloseableHttpResponse get(String url) throws Throwable, IOException
 	{
 		
 	CloseableHttpClient httpClient = HttpClients.createDefault();
@@ -22,22 +22,7 @@ public class RestClient {
 	HttpGet httpget = new HttpGet(url); //http get request
 	CloseableHttpResponse  closeableHttpResponse= httpClient.execute(httpget);//hit the url
 	
-	int status_code=closeableHttpResponse.getStatusLine().getStatusCode();
-	System.out.println(status_code);
-	
-	String ResponceString=EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
-	JSONObject responceJason= new JSONObject(ResponceString);
-	System.out.println("Json Responce from API: "+responceJason);
-	
-	Header[] headerArray= closeableHttpResponse.getAllHeaders();
-	HashMap<String,String> allHeaders = new HashMap<String,String>();
-	for(Header header:headerArray)
-	{
-		allHeaders.put(header.getName(), header.getValue());
-		
+	return closeableHttpResponse;
 	}
-	System.out.println("Headers Key and Value:"+allHeaders);
 	
-	}
-
 }
