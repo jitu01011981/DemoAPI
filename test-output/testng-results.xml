@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2026" started-at="2019-09-07T17:09:14 IST" finished-at="2019-09-07T17:09:16 IST">
+  <suite name="Default suite" duration-ms="1977" started-at="2019-10-03T22:02:04 IST" finished-at="2019-10-03T22:02:06 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2026" started-at="2019-09-07T17:09:14 IST" finished-at="2019-09-07T17:09:16 IST">
+    <test name="Default test" duration-ms="1977" started-at="2019-10-03T22:02:04 IST" finished-at="2019-10-03T22:02:06 IST">
       <class name="com.qa.Test.Get_Method">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Test.Get_Method@6f1fba17]" name="setup" is-config="true" duration-ms="22" started-at="2019-09-07T17:09:14 IST" finished-at="2019-09-07T17:09:14 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Test.Get_Method@6ddf90b0]" name="setup" is-config="true" duration-ms="11" started-at="2019-10-03T22:02:04 IST" finished-at="2019-10-03T22:02:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getAPI()[pri:0, instance:com.qa.Test.Get_Method@6f1fba17]" name="getAPI" duration-ms="1934" started-at="2019-09-07T17:09:14 IST" finished-at="2019-09-07T17:09:16 IST">
+        <test-method status="PASS" signature="getAPI()[pri:0, instance:com.qa.Test.Get_Method@6ddf90b0]" name="getAPI" duration-ms="1881" started-at="2019-10-03T22:02:04 IST" finished-at="2019-10-03T22:02:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAPI -->
